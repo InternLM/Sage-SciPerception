@@ -27,24 +27,24 @@ Recorded views of scientific inputs, annotations, and task interfaces. Checkpoin
 <table width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="assets/spectra.gif" alt="Joint spectra, streamed analysis, and a predicted molecule." width="100%"><br>
+      <img src="assets/spectra-en.gif" alt="Joint spectra, streamed analysis, and a predicted molecule." width="100%"><br>
       <b>Three spectra → molecular structure</b><br>
       <sub>IR, Raman and UV–Vis with streamed analysis and a recorded prediction.</sub>
     </td>
     <td width="50%" align="center">
-      <img src="assets/protein.gif" alt="Protein sequence positions and reference interface annotations." width="100%"><br>
+      <img src="assets/protein-en.gif" alt="Protein sequence positions and reference interface annotations." width="100%"><br>
       <b>Protein interface sites</b><br>
       <sub>Sequence positions and reference residue-level annotations.</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="assets/crystal.gif" alt="Crystal geometry and its reference formation energy." width="100%"><br>
+      <img src="assets/crystal-en.gif" alt="Crystal geometry and its reference formation energy." width="100%"><br>
       <b>Crystal structure and formation energy</b><br>
       <sub>Atomic geometry and a reference material property.</sub>
     </td>
     <td width="50%" align="center">
-      <img src="assets/rna-iterations.gif" alt="Recorded RNA interface experiments and evaluation feedback." width="100%"><br>
+      <img src="assets/rna-iterations-en.gif" alt="Recorded RNA interface experiments and evaluation feedback." width="100%"><br>
       <b>RNA interface refinement</b><br>
       <sub>Design revisions guided by experimental feedback.</sub>
     </td>
@@ -142,7 +142,7 @@ Metrics differ across rows. **MAD/MAE is a ratio where higher is better.** MPBin
 ## Framework
 
 <p align="center">
-  <img src="assets/framework.gif" alt="Scientific inputs pass through scientific representations and trainable projectors into a language model." width="100%">
+  <img src="assets/framework-en.gif" alt="Scientific inputs pass through scientific representations and trainable projectors into a language model." width="100%">
 </p>
 
 A task-specific projector maps scientific representations into the language model's embedding space. During language-mapping training, the scientific models and language model remain frozen while the projector is trained. Some tasks use scientific models adapted beforehand, or combine encoder states with scientific readouts.

@@ -27,24 +27,24 @@
 <table width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="assets/spectra.gif" alt="三谱联合输入、流式解析与预测的分子结构。" width="100%"><br>
+      <img src="assets/spectra-zh.gif" alt="三谱联合输入、流式解析与预测的分子结构。" width="100%"><br>
       <b>三谱联合 → 分子结构</b><br>
       <sub>红外、拉曼与紫外—可见光谱，配合流式解析和历史预测回放。</sub>
     </td>
     <td width="50%" align="center">
-      <img src="assets/protein.gif" alt="蛋白质序列位置与界面参考标注。" width="100%"><br>
+      <img src="assets/protein-zh.gif" alt="蛋白质序列位置与界面参考标注。" width="100%"><br>
       <b>蛋白质界面位点</b><br>
       <sub>序列位置与逐残基界面参考标注。</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="assets/crystal.gif" alt="晶体几何结构及其形成能参考值。" width="100%"><br>
+      <img src="assets/crystal-zh.gif" alt="晶体几何结构及其形成能参考值。" width="100%"><br>
       <b>晶体结构与形成能</b><br>
       <sub>原子几何结构与材料性质参考值。</sub>
     </td>
     <td width="50%" align="center">
-      <img src="assets/rna-iterations.gif" alt="RNA 接入方案实验与评测反馈回放。" width="100%"><br>
+      <img src="assets/rna-iterations-zh.gif" alt="RNA 接入方案实验与评测反馈回放。" width="100%"><br>
       <b>RNA 接入方案迭代</b><br>
       <sub>根据实验反馈修订接入方案。</sub>
     </td>
@@ -142,7 +142,7 @@ python examples/vllm_cif.py \
 ## 整体框架
 
 <p align="center">
-  <img src="assets/framework.gif" alt="科学输入经科学表征与可训练投影模块，接入语言模型。" width="100%">
+  <img src="assets/framework-zh.gif" alt="科学输入经科学表征与可训练投影模块，接入语言模型。" width="100%">
 </p>
 
 任务专用 projector 将科学表征映射到语言模型的嵌入空间。在语言映射训练阶段，科学模型与语言模型保持冻结，只训练 projector。部分任务会先对科学模型进行任务适配，或将编码器状态与科学直接读出结合。
