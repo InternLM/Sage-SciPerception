@@ -154,3 +154,18 @@ python examples/vllm_cif.py \
 如果你希望贡献编码器、模态、任务或语言模型接入，请先在 issue 中说明科学输入表示与目标任务，以便对齐 checkpoint 格式和示例。可通过 Star 或 Watch 本仓库关注后续权重、示例与接入更新；已发布模型在 [Hugging Face](https://huggingface.co/internlm/Sage-SciPerception) 下载。
 
 本次发布尚未指定许可证信息。
+
+## 引用
+
+如果你在研究或项目中使用了书生·元征（Sage-SciPerception），请引用：
+
+```bibtex
+@misc{sage_sciperception,
+  author       = {{InternLM}},
+  title        = {{Sage-SciPerception}},
+  version      = {0.1.0},
+  note         = {GitHub repository},
+  year         = {2026},
+  url          = {https://github.com/InternLM/Sage-SciPerception}
+}
+```

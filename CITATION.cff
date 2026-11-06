@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: If you use Sage-SciPerception, please cite this software using the metadata
+  below.
+type: software
+title: Sage-SciPerception
+authors:
+- name: InternLM
+version: 0.1.0
+date-released: '2026-11-06'
+url: https://github.com/InternLM/Sage-SciPerception
+repository-code: https://github.com/InternLM/Sage-SciPerception
+abstract: Scientific perception for language models through task-specific projectors.

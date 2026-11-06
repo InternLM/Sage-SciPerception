@@ -154,3 +154,18 @@ For integration help or a new task request, [open an issue](https://github.com/I
 If you would like to contribute an encoder, modality, task, or language-model integration, describe the proposed scientific representation and target task in an issue so the checkpoint format and example can be aligned. Star or watch this repository to follow new checkpoints, examples, and integrations; download releases from [Hugging Face](https://huggingface.co/internlm/Sage-SciPerception).
 
 License details have not yet been specified for this release.
+
+## Citation
+
+If you use Sage-SciPerception in your work, please cite:
+
+```bibtex
+@misc{sage_sciperception,
+  author       = {{InternLM}},
+  title        = {{Sage-SciPerception}},
+  version      = {0.1.0},
+  note         = {GitHub repository},
+  year         = {2026},
+  url          = {https://github.com/InternLM/Sage-SciPerception}
+}
+```
